@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>BotAI2._0</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DetectLanguage" Version="1.0.0" />
+    <PackageReference Include="FFMpegCore" Version="5.1.0" />
+    <PackageReference Include="IronOcr" Version="2023.1.11644" />
+    <PackageReference Include="IronOcr.Languages.Belarusian" Version="2020.11.2" />
+    <PackageReference Include="IronOcr.Languages.Russian" Version="2020.11.2" />
+    <PackageReference Include="IronPython" Version="3.4.0" />
+    <PackageReference Include="NAudio" Version="2.1.0" />
+    <PackageReference Include="Telegram.Bot" Version="18.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="VoiceRSS_TTS_SDK">
+      <HintPath>bin\Debug\net6.0\VoiceRSS_TTS_SDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
